@@ -1,0 +1,31 @@
+//
+//  Prefix.pch
+//  StandardPj
+//
+//  Created by 徐沈俊杰 on 2018/7/11.
+//  Copyright © 2018年 JX. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#import "JXUtilities.h"
+#import "JXNavigationController.h"
+#import "JXTabBarController.h"
+#import "UIColor+JXExtend.h"
+
+//#import "AFNetworking.h"
+//#import "IQKeyboardManager.h"
+#import "Masonry.h"
+//#import <SDWebImage/UIImageView+WebCache.h>
+
+#define kSCALE ([UIScreen mainScreen].bounds.size.width/375)
+#define kTO_SCALE(x) (kSCALE*x)
+
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+#define kStatusHeight ([[UIApplication sharedApplication] statusBarFrame].size.height)
+#define kNavHeight (self.navigationController.navigationBar.frame.size.height)
+#define kTabHeight (self.tabBarController.tabBar.frame.size.height)
+
+#endif /* Prefix_pch */

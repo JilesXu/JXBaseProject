@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		07E6F00621460C79005B93EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F00521460C79005B93EA /* AppDelegate.m */; };
-		07E6F00921460C79005B93EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F00821460C79005B93EA /* ViewController.m */; };
-		07E6F00C21460C79005B93EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E6F00A21460C79005B93EA /* Main.storyboard */; };
 		07E6F00E21460C7A005B93EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E6F00D21460C7A005B93EA /* Assets.xcassets */; };
-		07E6F01121460C7A005B93EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E6F00F21460C7A005B93EA /* LaunchScreen.storyboard */; };
 		07E6F01421460C7A005B93EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F01321460C7A005B93EA /* main.m */; };
 		07E6F01E21460C7A005B93EA /* JXBaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F01D21460C7A005B93EA /* JXBaseProjectTests.m */; };
 		07E6F02921460C7A005B93EA /* JXBaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F02821460C7A005B93EA /* JXBaseProjectUITests.m */; };
+		07E6F03C21460F1F005B93EA /* JXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F03921460F1F005B93EA /* JXNavigationController.m */; };
+		07E6F03D21460F1F005B93EA /* JXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F03B21460F1F005B93EA /* JXNavigationBar.m */; };
+		07E6F04121460F4D005B93EA /* JXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F04021460F4D005B93EA /* JXBaseViewController.m */; };
+		07E6F0472146103E005B93EA /* JXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F0452146103E005B93EA /* JXTabBarController.m */; };
+		07E6F04B2146112B005B93EA /* JXRootUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F04A2146112B005B93EA /* JXRootUIService.m */; };
+		07E6F05121461B2D005B93EA /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F04D21461B2D005B93EA /* UserCenterViewController.m */; };
+		07E6F05221461B2D005B93EA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F05021461B2D005B93EA /* HomeViewController.m */; };
+		07E6F05C21463D8C005B93EA /* JXUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F05B21463D8C005B93EA /* JXUtilities.m */; };
+		07E6F05F21463DCD005B93EA /* UIColor+JXExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F05E21463DCD005B93EA /* UIColor+JXExtend.m */; };
+		16C05D7FA9C3E8D69FDC5829 /* libPods-JXBaseProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18D2DD4C8E74B7F6E9A2300 /* libPods-JXBaseProjectTests.a */; };
+		7A516B86EEB3535B9D5EE88F /* libPods-JXBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2111236657FDE50D3B6957C /* libPods-JXBaseProject.a */; };
+		7DEFD9641D303B67BA66CD2A /* libPods-JXBaseProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F9B40FE3F2E476A41EFF4A /* libPods-JXBaseProjectUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +47,7 @@
 		07E6F00121460C79005B93EA /* JXBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E6F00421460C79005B93EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07E6F00521460C79005B93EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		07E6F00721460C79005B93EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		07E6F00821460C79005B93EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		07E6F00B21460C79005B93EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07E6F00D21460C7A005B93EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		07E6F01021460C7A005B93EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07E6F01221460C7A005B93EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E6F01321460C7A005B93EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07E6F01921460C7A005B93EA /* JXBaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXBaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +56,34 @@
 		07E6F02421460C7A005B93EA /* JXBaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXBaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E6F02821460C7A005B93EA /* JXBaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXBaseProjectUITests.m; sourceTree = "<group>"; };
 		07E6F02A21460C7A005B93EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E6F03821460F1E005B93EA /* JXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNavigationBar.h; sourceTree = "<group>"; };
+		07E6F03921460F1F005B93EA /* JXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNavigationController.m; sourceTree = "<group>"; };
+		07E6F03A21460F1F005B93EA /* JXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXNavigationController.h; sourceTree = "<group>"; };
+		07E6F03B21460F1F005B93EA /* JXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXNavigationBar.m; sourceTree = "<group>"; };
+		07E6F03F21460F4D005B93EA /* JXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXBaseViewController.h; sourceTree = "<group>"; };
+		07E6F04021460F4D005B93EA /* JXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXBaseViewController.m; sourceTree = "<group>"; };
+		07E6F04321460FAB005B93EA /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		07E6F0452146103E005B93EA /* JXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTabBarController.m; sourceTree = "<group>"; };
+		07E6F0462146103E005B93EA /* JXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTabBarController.h; sourceTree = "<group>"; };
+		07E6F0492146112B005B93EA /* JXRootUIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXRootUIService.h; sourceTree = "<group>"; };
+		07E6F04A2146112B005B93EA /* JXRootUIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXRootUIService.m; sourceTree = "<group>"; };
+		07E6F04D21461B2D005B93EA /* UserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
+		07E6F04E21461B2D005B93EA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		07E6F04F21461B2D005B93EA /* UserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
+		07E6F05021461B2D005B93EA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		07E6F05A21463D8C005B93EA /* JXUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXUtilities.h; sourceTree = "<group>"; };
+		07E6F05B21463D8C005B93EA /* JXUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXUtilities.m; sourceTree = "<group>"; };
+		07E6F05D21463DCD005B93EA /* UIColor+JXExtend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JXExtend.h"; sourceTree = "<group>"; };
+		07E6F05E21463DCD005B93EA /* UIColor+JXExtend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JXExtend.m"; sourceTree = "<group>"; };
+		2F299A878094ADA0B78CB73C /* Pods-JXBaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXBaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXBaseProjectTests/Pods-JXBaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47696DCC74207DF9E8DC3EB6 /* Pods-JXBaseProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXBaseProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXBaseProjectUITests/Pods-JXBaseProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		653ECEB19F8FFC93DC36CFD2 /* Pods-JXBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXBaseProject/Pods-JXBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		A2111236657FDE50D3B6957C /* libPods-JXBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CB309540FD5340515A4F17 /* Pods-JXBaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXBaseProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXBaseProjectUITests/Pods-JXBaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2F9B40FE3F2E476A41EFF4A /* libPods-JXBaseProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXBaseProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A1978F6F7558E3FCC74B1 /* Pods-JXBaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXBaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXBaseProjectTests/Pods-JXBaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8BA4904C2B53BD7DAC08008 /* Pods-JXBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXBaseProject/Pods-JXBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E18D2DD4C8E74B7F6E9A2300 /* libPods-JXBaseProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXBaseProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A516B86EEB3535B9D5EE88F /* libPods-JXBaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C05D7FA9C3E8D69FDC5829 /* libPods-JXBaseProjectTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DEFD9641D303B67BA66CD2A /* libPods-JXBaseProjectUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				07E6F01C21460C7A005B93EA /* JXBaseProjectTests */,
 				07E6F02721460C7A005B93EA /* JXBaseProjectUITests */,
 				07E6F00221460C79005B93EA /* Products */,
+				332A7A65449E972F7717F084 /* Pods */,
+				441CE106933A01AD5757A125 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +139,11 @@
 		07E6F00321460C79005B93EA /* JXBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				07E6F03621460D0C005B93EA /* JXBaseClass */,
+				07E6F04C21461AEF005B93EA /* Example */,
 				07E6F00421460C79005B93EA /* AppDelegate.h */,
 				07E6F00521460C79005B93EA /* AppDelegate.m */,
-				07E6F00721460C79005B93EA /* ViewController.h */,
-				07E6F00821460C79005B93EA /* ViewController.m */,
-				07E6F00A21460C79005B93EA /* Main.storyboard */,
 				07E6F00D21460C7A005B93EA /* Assets.xcassets */,
-				07E6F00F21460C7A005B93EA /* LaunchScreen.storyboard */,
 				07E6F01221460C7A005B93EA /* Info.plist */,
 				07E6F01321460C7A005B93EA /* main.m */,
 			);
@@ -132,6 +168,110 @@
 			path = JXBaseProjectUITests;
 			sourceTree = "<group>";
 		};
+		07E6F03621460D0C005B93EA /* JXBaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F05321461C0F005B93EA /* JXTool */,
+				07E6F048214610DC005B93EA /* JXRootUIService */,
+				07E6F0442146102A005B93EA /* JXTabBarController */,
+				07E6F03E21460F2B005B93EA /* JXViewController */,
+				07E6F03721460D1A005B93EA /* JXNavigation */,
+				07E6F04221460F7F005B93EA /* JX Support Files */,
+			);
+			path = JXBaseClass;
+			sourceTree = "<group>";
+		};
+		07E6F03721460D1A005B93EA /* JXNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F03821460F1E005B93EA /* JXNavigationBar.h */,
+				07E6F03B21460F1F005B93EA /* JXNavigationBar.m */,
+				07E6F03A21460F1F005B93EA /* JXNavigationController.h */,
+				07E6F03921460F1F005B93EA /* JXNavigationController.m */,
+			);
+			path = JXNavigation;
+			sourceTree = "<group>";
+		};
+		07E6F03E21460F2B005B93EA /* JXViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F03F21460F4D005B93EA /* JXBaseViewController.h */,
+				07E6F04021460F4D005B93EA /* JXBaseViewController.m */,
+			);
+			path = JXViewController;
+			sourceTree = "<group>";
+		};
+		07E6F04221460F7F005B93EA /* JX Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F04321460FAB005B93EA /* Prefix.pch */,
+			);
+			path = "JX Support Files";
+			sourceTree = "<group>";
+		};
+		07E6F0442146102A005B93EA /* JXTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F0462146103E005B93EA /* JXTabBarController.h */,
+				07E6F0452146103E005B93EA /* JXTabBarController.m */,
+			);
+			path = JXTabBarController;
+			sourceTree = "<group>";
+		};
+		07E6F048214610DC005B93EA /* JXRootUIService */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F0492146112B005B93EA /* JXRootUIService.h */,
+				07E6F04A2146112B005B93EA /* JXRootUIService.m */,
+			);
+			path = JXRootUIService;
+			sourceTree = "<group>";
+		};
+		07E6F04C21461AEF005B93EA /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F04E21461B2D005B93EA /* HomeViewController.h */,
+				07E6F05021461B2D005B93EA /* HomeViewController.m */,
+				07E6F04F21461B2D005B93EA /* UserCenterViewController.h */,
+				07E6F04D21461B2D005B93EA /* UserCenterViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		07E6F05321461C0F005B93EA /* JXTool */ = {
+			isa = PBXGroup;
+			children = (
+				07E6F05A21463D8C005B93EA /* JXUtilities.h */,
+				07E6F05B21463D8C005B93EA /* JXUtilities.m */,
+				07E6F05D21463DCD005B93EA /* UIColor+JXExtend.h */,
+				07E6F05E21463DCD005B93EA /* UIColor+JXExtend.m */,
+			);
+			path = JXTool;
+			sourceTree = "<group>";
+		};
+		332A7A65449E972F7717F084 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8BA4904C2B53BD7DAC08008 /* Pods-JXBaseProject.debug.xcconfig */,
+				653ECEB19F8FFC93DC36CFD2 /* Pods-JXBaseProject.release.xcconfig */,
+				2F299A878094ADA0B78CB73C /* Pods-JXBaseProjectTests.debug.xcconfig */,
+				B60A1978F6F7558E3FCC74B1 /* Pods-JXBaseProjectTests.release.xcconfig */,
+				47696DCC74207DF9E8DC3EB6 /* Pods-JXBaseProjectUITests.debug.xcconfig */,
+				B0CB309540FD5340515A4F17 /* Pods-JXBaseProjectUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		441CE106933A01AD5757A125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2111236657FDE50D3B6957C /* libPods-JXBaseProject.a */,
+				E18D2DD4C8E74B7F6E9A2300 /* libPods-JXBaseProjectTests.a */,
+				B2F9B40FE3F2E476A41EFF4A /* libPods-JXBaseProjectUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E6F02D21460C7A005B93EA /* Build configuration list for PBXNativeTarget "JXBaseProject" */;
 			buildPhases = (
+				9914D8996AD49BBCFC1A6E67 /* [CP] Check Pods Manifest.lock */,
 				07E6EFFD21460C79005B93EA /* Sources */,
 				07E6EFFE21460C79005B93EA /* Frameworks */,
 				07E6EFFF21460C79005B93EA /* Resources */,
@@ -156,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E6F03021460C7A005B93EA /* Build configuration list for PBXNativeTarget "JXBaseProjectTests" */;
 			buildPhases = (
+				8503B1A2A534F0C14817EA45 /* [CP] Check Pods Manifest.lock */,
 				07E6F01521460C7A005B93EA /* Sources */,
 				07E6F01621460C7A005B93EA /* Frameworks */,
 				07E6F01721460C7A005B93EA /* Resources */,
@@ -174,6 +316,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E6F03321460C7A005B93EA /* Build configuration list for PBXNativeTarget "JXBaseProjectUITests" */;
 			buildPhases = (
+				178D3591AF8E592AB023EF10 /* [CP] Check Pods Manifest.lock */,
 				07E6F02021460C7A005B93EA /* Sources */,
 				07E6F02121460C7A005B93EA /* Frameworks */,
 				07E6F02221460C7A005B93EA /* Resources */,
@@ -235,9 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E6F01121460C7A005B93EA /* LaunchScreen.storyboard in Resources */,
 				07E6F00E21460C7A005B93EA /* Assets.xcassets in Resources */,
-				07E6F00C21460C79005B93EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +398,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		178D3591AF8E592AB023EF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXBaseProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8503B1A2A534F0C14817EA45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXBaseProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9914D8996AD49BBCFC1A6E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07E6EFFD21460C79005B93EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E6F00921460C79005B93EA /* ViewController.m in Sources */,
+				07E6F05F21463DCD005B93EA /* UIColor+JXExtend.m in Sources */,
 				07E6F01421460C7A005B93EA /* main.m in Sources */,
+				07E6F04B2146112B005B93EA /* JXRootUIService.m in Sources */,
+				07E6F03C21460F1F005B93EA /* JXNavigationController.m in Sources */,
 				07E6F00621460C79005B93EA /* AppDelegate.m in Sources */,
+				07E6F05C21463D8C005B93EA /* JXUtilities.m in Sources */,
+				07E6F05121461B2D005B93EA /* UserCenterViewController.m in Sources */,
+				07E6F05221461B2D005B93EA /* HomeViewController.m in Sources */,
+				07E6F0472146103E005B93EA /* JXTabBarController.m in Sources */,
+				07E6F03D21460F1F005B93EA /* JXNavigationBar.m in Sources */,
+				07E6F04121460F4D005B93EA /* JXBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +504,6 @@
 			targetProxy = 07E6F02521460C7A005B93EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		07E6F00A21460C79005B93EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07E6F00B21460C79005B93EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		07E6F00F21460C7A005B93EA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07E6F01021460C7A005B93EA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		07E6F02B21460C7A005B93EA /* Debug */ = {
@@ -431,9 +618,11 @@
 		};
 		07E6F02E21460C7A005B93EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BA4904C2B53BD7DAC08008 /* Pods-JXBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//JXBaseProject/BaseClass/JX Support Files/Prefix.pch";
 				INFOPLIST_FILE = JXBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +636,11 @@
 		};
 		07E6F02F21460C7A005B93EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653ECEB19F8FFC93DC36CFD2 /* Pods-JXBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//JXBaseProject/BaseClass/JX Support Files/Prefix.pch";
 				INFOPLIST_FILE = JXBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +654,7 @@
 		};
 		07E6F03121460C7A005B93EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F299A878094ADA0B78CB73C /* Pods-JXBaseProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +673,7 @@
 		};
 		07E6F03221460C7A005B93EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60A1978F6F7558E3FCC74B1 /* Pods-JXBaseProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +692,7 @@
 		};
 		07E6F03421460C7A005B93EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47696DCC74207DF9E8DC3EB6 /* Pods-JXBaseProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXBaseProjectUITests/Info.plist;
@@ -516,6 +710,7 @@
 		};
 		07E6F03521460C7A005B93EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CB309540FD5340515A4F17 /* Pods-JXBaseProjectUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JXBaseProjectUITests/Info.plist;
